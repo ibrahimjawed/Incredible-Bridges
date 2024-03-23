@@ -1,0 +1,51 @@
+/* cards css */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.box {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #979797;
+    background-color: #eceaea;
+    box-shadow: 0 30px 20px rgba(0, 0, 0, 0.1);
+    /* miss cheak */
+    border-radius: 20px;
+}
+
+.box-inner {
+    text-align: center;
+}
+
+h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.image {
+    width: 100%;
+    height: 200px;
+    border-radius: 1px solid;
+    margin-bottom: 10px;
+}
+
+#para {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box {
+        width: 80%;
+    }
+}
+/* close */

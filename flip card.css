@@ -1,0 +1,78 @@
+/* <!-- FLIP CARD CSSs --> */
+/* Global styles */
+* {
+box-sizing: border-box;
+}
+
+.column {
+float: left;
+width: 100%; /* Initially each column occupies full width on small screens */
+padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+content: "";
+clear: both;
+display: table;
+}
+
+.image-container {
+position: relative;
+overflow: hidden;
+}
+
+.image {
+width: 100%;
+display: block;
+transition: transform 2s ease;
+}
+
+.overlay {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+background-color: rgba(0, 0, 0, 0.5);
+color: white;
+font-size: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+opacity: 0;
+transition: opacity 2s ease;
+}
+
+.overlay:hover {
+opacity: 1;
+}
+
+.head {
+text-align: center;
+}
+
+#col-chg {
+color: rgb(182, 181, 181);
+font-size:large;
+}
+.text-cent,
+#text-cent{
+text-align: center;
+}
+
+
+/* Media query for tablet screens */
+@media screen and (min-width: 768px) {
+.column {
+  width: 50%; /* Two columns per row on tablets */
+}
+}
+
+/* Media query for desktop screens */
+@media screen and (min-width: 992px) {
+.column {
+  width: 33.33%; /* Three columns per row on desktops */
+}
+}
+  /* <!-- CLOSE --> */

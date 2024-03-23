@@ -1,0 +1,54 @@
+#container
+{
+    display: flex;
+    align-items: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#log-container img
+{
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+#visitor-count
+{
+    
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+#visitor-count
+{
+    background-color: rgb(184, 184, 184);
+    color:rgb(0, 0, 0);
+}
+#visitor-count:hover
+{
+    background-color: rgb(192, 192, 192);
+    color: rgb(255, 247, 247);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* search bar css */
+.btn
+{
+    background-color: #555555;
+    color:white;
+}
+.btn:hover
+{
+    background-color: rgb(153, 153, 153);
+    color: rgb(255, 255, 255);
+}
+/* navbar btn css */
+#nav {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  #navbar:hover {
+    background-color: rgb(138, 136, 136);
+  }
+
+  .active {
+    background-color: rgb(190, 186, 186);
+  }
+  /* close */
